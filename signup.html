@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up / Login | Diamond Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="fourCs.html">4 Cs of Diamonds</a></li>
+          <li><a href="diamondEducation.html">Diamond Education</a></li>
+          <li><a href="signup.html">Sign Up / Login</a></li>
+        </ul>
+      </nav>
+      <h1 class="glow">Sign Up / Login</h1>
+      <p class="subheading">Create an Account or Log in to Access Exclusive Content</p>
+    </header>
+
+    <section class="signup-section">
+      <h2 class="glow">Create an Account</h2>
+      <p>
+        Sign up to become a member of Diamond Universe and gain access to exclusive content, educational resources, and personalized diamond recommendations.
+      </p>
+      <form id="signup-form">
+        <label for="signup-username">Username:</label>
+        <input type="text" id="signup-username" required>
+        
+        <label for="signup-email">Email:</label>
+        <input type="email" id="signup-email" required>
+
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" required>
+        
+        <label for="signup-confirm-password">Confirm Password:</label>
+        <input type="password" id="signup-confirm-password" required>
+
+        <input type="submit" value="Sign Up">
+      </form>
+    </section>
+
+    <section class="login-section">
+      <h2 class="glow">Log In</h2>
+      <p>
+        Already have an account with Diamond Universe? Log in to access your profile and personalized diamond recommendations.
+      </p>
+      <form id="login-form">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" required>
+
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" required>
+
+        <input type="submit" value="Log In">
+      </form>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
